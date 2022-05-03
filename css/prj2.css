@@ -1,12 +1,8 @@
 body {
 
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  background-color: #f1f1f1e0;
-  text-align: center;
-  padding: 20px;
+  background-color: #ecf2f7;
+  margin: 20px;
 }
 
 ul.menu {
@@ -30,12 +26,25 @@ a.uppercase {
     text-transform: uppercase;
 }
 
-#id1 {
+#banner {
+    position: relative;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
-    height: 200px;
     width: 100%;
+    height: 500px;
+}
+
+/*place text over an image*/
+
+.textonbanner {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color:white
 
 }
+
+/*float property, it is easy to float boxes of content side by side*/
+/* The box-sizing property allows to include the padding and border in an element's total width and height.*/
 
 * {
     box-sizing: border-box;
@@ -46,6 +55,7 @@ a.uppercase {
     width: 33.33%;
     padding: 30px;
   }
+
 
 #id3::after {
     content: "";
