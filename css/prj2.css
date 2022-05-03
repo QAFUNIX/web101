@@ -1,3 +1,14 @@
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1e0;
+  text-align: center;
+  padding: 20px;
+}
+
 ul.menu {
     list-style-type: none;
     display: inline-block;
